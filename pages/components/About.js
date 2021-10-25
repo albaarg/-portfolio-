@@ -5,7 +5,7 @@ function About() {
         About me
       </h2>
       <p className="text-gray-700 text-center text-base tracking-tight md:text-sm font-serif m-2">
-        Hi there! 👋 I'm a software development student based in
+        Hi there! 👋 I&apos;m a software development student based in
         Argentina.
       </p>
       <p className="text-gray-700 text-center text-base tracking-tight md:text-sm font-serif m-2">
@@ -14,13 +14,13 @@ function About() {
         going.
       </p>
       <p className="text-gray-700 text-center text-base tracking-tight md:text-sm font-serif m-2">
-        Currently, I'm getting into ReactJS and would like to learn React Native
+        Currently, I&apos;m getting into ReactJS and would like to learn React Native
         in the future. I would also love to handle new technologies and improve
         my practices to make my projects more accesible to everyone!
       </p>
       <p className="text-gray-700 text-center text-base tracking-tight md:text-sm font-serif m-2">
-        I've got knowledge about <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b> and{" "}
-        <b>ReactJS</b>, but I'm eager to use other tools as well!
+        I&apos;ve got knowledge about <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b> and{" "}
+        <b>ReactJS</b>, but I&apos;m eager to use other tools as well!
       </p>
     </div>
   );
