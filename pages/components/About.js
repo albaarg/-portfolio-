@@ -1,11 +1,11 @@
 function About() {
   return (
     <div className="relative">
-      <h2 className=" text-center m-8 p-8 text-gray-800 text-4xl font-sans .tracking-tight md:text-center">
+      <h2 className="text-center m-8 p-8 text-gray-800 text-4xl font-sans .tracking-tight md:text-center">
         About me
       </h2>
       <p className="text-gray-700 text-center text-base tracking-tight md:text-sm font-serif m-2">
-        Hi there! &#x1f44b; I'm a software development student based in
+        Hi there! 👋 I'm a software development student based in
         Argentina.
       </p>
       <p className="text-gray-700 text-center text-base tracking-tight md:text-sm font-serif m-2">

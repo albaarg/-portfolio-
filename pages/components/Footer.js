@@ -18,18 +18,14 @@ function Footer() {
           <p className="text-sm md:s-m p-3">
             <EmailIcon /> arga.alba@gmail.com
           </p>
-          <div className=" p-4 space-x-8">
+          <div className="p-4 space-x-8">
             <a
               href="https://github.com/albaarg"
-              target="_blank"
-              rel="noreferrer"
             >
               <GitHubIcon />
             </a>
             <a
               href="https://www.linkedin.com/in/albaarganaras/"
-              target="_blank"
-              rel="noreferrer"
             >
               <LinkedInIcon />
             </a>
