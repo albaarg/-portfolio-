@@ -11,14 +11,14 @@ function Footer() {
   }, []);
 
   return (
-    <footer className="grid w-screen bg-pink-50 bg-auto text-center text-black ...  md:text-3xl font-semibold ...">
+    <footer className="grid w-screen bg-red-100 bg-auto text-center text-black ...  md:text-3xl font-sans ...">
       <div className="px-8 py-2">
         <section className="contactInfo" data-aos="fade-right">
-          <h2>Let's talk!</h2>
+          <h2 className="text-gray-800">Let's talk!</h2>
           <p className="text-sm md:s-m p-3">
             <EmailIcon /> arga.alba@gmail.com
           </p>
-          <div className=" p-6 space-x-8">
+          <div className=" p-4 space-x-8">
             <a
               href="https://github.com/albaarg"
               target="_blank"
