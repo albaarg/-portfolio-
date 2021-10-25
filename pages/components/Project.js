@@ -15,14 +15,14 @@ function Project({ id, title, description, img, vercel, github }) {
           {title}
         </h3>
        </div>
-       <div className="absolute inset-0 inset-x-0 m-16 mr-2 flex items-stretch justify-end space-x-2 duration-300">
+       <div className="absolute inset-0 inset-x-0 m-16 mr-2 flex items-stretch justify-end space-x-2 ">
           <a href={github} className="relative inset-0 " >
-          <button className="py-2 px-4 bg-white uppercase font-semibold rounded-lg shadow-md  focus:outline-none focus:ring-2 focus:bg-transparent focus:ring-opacity-75 ring-black">
+          <button className="py-2 px-4 bg-white border-2 border-black border-opacity-25 font-semibold rounded-lg shadow-md hover:bg-white focus:outline-none focus:ring-2 focus:bg-purple-400 focus:ring-opacity-75 ring-black">
            <img src="/img/github.png" alt="See on Github" className="h-5 " />
            </button>
           </a>
           <a href={vercel} className="relative inset-0" >
-          <button className="py-2 px-4 bg-white font-semibold rounded-lg shadow-md  ring-black">
+          <button className="py-2 px-4 bg-white border-2 border-black border-opacity-25 font-semibold rounded-lg shadow-md hover:bg-white focus:outline-none focus:ring-2 focus:bg-purple-400 focus:ring-opacity-75 ring-black">
             <img src="/img/vercel.png" alt="See on Vercel" className="h-4 "/>
             </button>
           </a>          

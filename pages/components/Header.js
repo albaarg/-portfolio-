@@ -4,10 +4,7 @@ import "aos/dist/aos.css";
 import Image from "next/image";
 
 function Header() {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
-
+ 
   return (
     <div className="bg-red-100 w-screen flex justify-center items-center">
       <div className="relative my-20 flex flex-col ">
@@ -20,7 +17,7 @@ function Header() {
             data-aos="fade-left"
             className="rounded-full shadow-md justify-center m-4 p-3 border-2 relative z-0"
           ></Image>
-          <div className="brief" data-aos="fade-left">
+          <div>
             <h1 className="text-center m-1 relative text-gray-800 text-opacity-75 ... text-4xl font-semibold.. .tracking-tight md:text-center sm:text-center ...">
               Alba Argañarás
             </h1>
