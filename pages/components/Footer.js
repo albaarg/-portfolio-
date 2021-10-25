@@ -11,7 +11,7 @@ function Footer() {
   }, []);
 
   return (
-    <footer className="grid w-screen bg-red-100 bg-auto text-center text-black ...  md:text-3xl font-sans ...">
+    <footer className="grid w-screen bg-red-100 bg-auto text-center text-black md:text-3xl font-sans">
       <div className="px-8 py-2">
         <section className="contactInfo" data-aos="fade-right">
           <h2 className="text-gray-800">Let's talk!</h2>
