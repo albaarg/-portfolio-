@@ -31,7 +31,7 @@ const project = [
     id: "4",
     title: "Instagram Clone",
     description:
-      "Instragram app clone made with Next Js, using Next Auth, and Firebase as a database. It allows to log in, upload photos and comment them, and also to like them.",
+      "Instagram app clone made with Next Js, using Next Auth, and Firebase as a database. It allows to log in, upload photos and comment them, and also to like them.",
     github: "https://github.com/albaarg/instagram-clone-next",
     vercel: "https://instagram-clone-next-dusky.vercel.app/",
     img: "/img/instagramclone.png",
