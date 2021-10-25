@@ -21,7 +21,7 @@ function Header() {
             <h1 className="text-center m-1 relative text-gray-800 text-opacity-75 ... text-4xl font-semibold.. .tracking-tight md:text-center sm:text-center ...">
               Alba Argañarás
             </h1>
-            <h2 className="text-red-100 rounded-full py-2 px-5... bg-gray-800 m-2 text-lg font-semibold ...  md:text-center sm:text-center ...">
+            <h2 className="flex justify-center items-center text-red-100 rounded-full py-2 px-5... bg-gray-800 m-2 text-lg font-semibold ...  md:text-center">
               FRONT-END DEVELOPER
             </h2>
           </div>
